@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.slogan {
+  color: #806ff2;
+  margin-top: 30px;
+}
+.description {
+  color: gray;
+  margin-top: 10px;
+}
+.btn-coming {
+  background: #c99cfb;
+  border-color: #c99cfb;
+}
+.btn-coming:hover {
+  background: #806ff2;
+  border-color: #806ff2;
+}
+.content {
+  padding: 0 160px 0 160px;
+}
+.description a {
+  color: gray;
+}
+.app-img {
+  width: 750px;
+  margin-top: 5px;
+}
+/* Small Devices, Tablets */
+@media (max-width: 993px) {
+    .content {
+        padding: 0;
+      }
+}
