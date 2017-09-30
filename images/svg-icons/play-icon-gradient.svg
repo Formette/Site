@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="24px" viewBox="0 0 21 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Play Filled Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8E64" offset="0%"></stop>
+            <stop stop-color="#FFE641" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-712.000000, -4714.000000)" fill="url(#linearGradient-1)">
+            <g id="Video-Tour-#4" transform="translate(0.000000, 4400.000000)">
+                <g id="Play-Button" transform="translate(655.000000, 232.000000)">
+                    <path d="M57,85.0034737 C57,82.6724903 59.5439137,81.2327068 61.5434873,82.4319878 L76.5434873,91.4285141 C78.4855042,92.5932746 78.4855042,95.4067254 76.5434873,96.5714859 L61.5434873,105.568012 C59.5439137,106.767293 57,105.32751 57,102.996526 L57,85.0034737 Z" id="Play-Filled-Icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

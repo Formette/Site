@@ -1,52 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="description" content="Forms as a Service, without having a need for any coding or a backbend">
-	<meta name="keywords" content="Forms,Code,Backends,Developers,Easy,Languages,Programming,Integrations,Free">
-	<meta name="author" content="vacom">
-	<link rel="shortcut icon" href="favicon.ico">
-	<title>Formette</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-	 crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Formette Landing Page">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Jquery,Bootstrap">
+    <meta name="author" content="Formette">
+    <title>Formette</title>
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <!--BOOTSTRAP, AOS, MAIN CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-grid.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!--FAVICON-->
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 </head>
-
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1 class="logo">Formette</h1>
-			</div>
-			<div class="col-md-12 text-center">
-				<h3 class="slogan">Forms as a Service</h3>
-			</div>
-			<div class="col-md-12 text-center">
-				<div class="content">
-					<p class="description">Why complicate things? Backends, programming languages difficult to perceive, there is no budget that reaches for everything.
-						Bring your forms to life, without having a need for any coding or a backbend. For more information contact
-						<b><a href="mailto:help@formette.com" target="_top">help@formette.com</a></b></p>
-					<a class="btn btn-primary btn-lg btn-coming" href="http://www.fb.com/formette" target="_blank">Coming Soon</a>
-				</div>
-			</div>
-			<div class="col-md-12 text-center">
-				<img class="app-img img-fluid" src="images/app.png" alt="App">
-			</div>
-		</div>
-	</div>
-</body>
-<script>
-	(function (i, s, o, g, r, a, m) {
-	i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-		(i[r].q = i[r].q || []).push(arguments)
-	}, i[r].l = 1 * new Date(); a = s.createElement(o),
-		m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <div>
 
-	ga('create', 'UA-29237910-6', 'auto');
-	ga('send', 'pageview');
-</script>
+        <div class="f-header">
+            <div class="container">
+                <!--NAV-BAR-->
+                <nav class="f-navbar navbar fixed-top navbar-expand-lg navbar-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"><b>Formette</b></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item dropdown cursor">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        More
+                                    </a>
+                                    <div class="dropdown-menu f-global-shadow" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Documentation</a>
+                                        <a class="dropdown-item" href="#">Roadmap</a>
+                                        <a class="dropdown-item" href="#">Feedback</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sign In</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline">
+                                <button class="btn f-btn f-btn-white f-global-shadow f-btn-si" type="button">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+                <!--INTRO-->
+                <div class="f-intro">
+                    <div class="row no-gutters">
+                        <div class="col-xl-5">
+                            <div class="f-intro-left">
+                                <h2><b>Forms as a service.</b></h2>
+                                <h5>
+                                    Bring your forms to life, without having a need for any coding or a backbend.
+                                    Just point your form at Formette and we do the rest.
+                                </h5>
+                                <button class="btn f-btn f-btn-orange f-global-shadow" type="button">Create Account</button>
+                                <button class="btn f-btn f-btn-white f-global-shadow" type="button">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="f-intro-right">
+                                <img src="images/content/formette_mac_flat.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="f-how">
+            <div class="container">
+                <h2><b>How</b> does it Work</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon-base blue f-global-shadow">
+                                <img src="images/svg-icons/reload-icon.svg" alt="">
+                            </div>
+                            <h5>Create an account</h5>
+                            <p>
+                                Do not worry, it's easy to create an account and it's free.
+                                Enter your email and password, and start creating forms.
+                            </p>
+                            <a href="">Sign up</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon-base orange f-global-shadow">
+                                <img src="images/svg-icons/inbox-icon.svg" alt="">
+                            </div>
+                            <h5>Point your form to our server</h5>
+                            <p>
+                                Set your form's action-attribute to our server url generated from your dashboard.
+                                Take a look at this simples example: http://api.formette.com/username/formId
+                            </p>
+                            <a href="">Create a form</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon-base purple f-global-shadow">
+                                <img src="images/svg-icons/notifications-Icon.svg" alt="">
+                            </div>
+                            <h5>Done, sit back and relax</h5>
+                            <p>
+                                That's it! Formette takes care of all the processing.
+                                Every time you receive a submission, we take care of it with great affection and let you know.
+                            </p>
+                            <a href="">View data</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="get-started">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                        <div class="get-started-left">
+                            <h2>Get started now</h2>
+                            <p>
+                                Already convinced? Creating an account has its advantages, give life to your forms without
+                                having to write a line of code. It's worth it, create an account, start today for free.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+                        <div class="get-started-right">
+                            <button class="btn f-btn f-btn-white f-global-shadow align-middle" type="button">Watch Video</button>
+                            <button class="btn f-btn f-btn-green f-global-shadow align-middle" type="button">Try it free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="features">
+            <div class="container">
+                <div class="row h-100">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 my-auto">
+                        <div class="features-group">
+                            <div class="feature">
+                                <div class="feature-left">
+                                    <img src="images/svg-icons/reload-icon-gradient.svg" alt="">
+                                </div>
+                                <div class="feature-right">
+                                    <h6>Capture and automate form submissions</h6>
+                                    <p>
+                                        Without any programming, we collect submissions from the forms and
+                                        provide our users with a simple and intuitive way to always keep their data.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature f-focus">
+                                <div class="feature-left">
+                                    <img src="images/svg-icons/inbox-icon-gradient.svg" alt="">
+                                </div>
+                                <div class="feature-right">
+                                    <h6>A versatile endpoint with dozens of possibilities</h6>
+                                    <p>
+                                        An unlimited imagination, create forms for everything from contacts,
+                                        emails to newsletters. You need to collect information for a form then use our service.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-left">
+                                    <img src="images/svg-icons/clock-icon-gradient.svg" alt="">
+                                </div>
+                                <div class="feature-right">
+                                    <h6>Do not worry, we're on your side</h6>
+                                    <p>
+                                        We are always thinking about the quality of our product, especially on security,
+                                        validate all information and ensure that you will always be protected with us.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+                        <div class="feature-demo">
+                            <img src="images/content/feature-tablet.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <div class="video-image">
+                <div class="container">
+                    <div class="video-group">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <h2>Watch video tour</h2>
+                                <p>
+                                    A picture is worth a thousand words, for this we created a
+                                    video for the most curious. See how Formette can help you save on
+                                    servers and your static sites.
+                                </p>
+                                <div class="f-play">
+                                    <img src="images/svg-icons/play-icon-gradient.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="plan">
+            <div class="container">
+                <div class="row h-100">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 my-auto">
+                        <h2>Choose your plan</h2>
+                        <p>
+                            Simple pricing, satisfaction guaranteed. We want you to be happy with Formette,
+                            for this we provide a simple plans. Start today for free.
+                        </p>
+                    </div>
+                    <div class="col-xl-8 col-lg-6 col-md-6 col-sm-6">
+                        <div class="plans">
+                            <div class="row no-gutters justify-content-end h-100">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                    <div class="price-card card">
+                                        <div class="lines">
+                                            <span>Professional</span>
+                                        </div>
+                                        <div class="body">
+                                            <h1>Free <span style="font-size: 10px">(Beta)</span></h1>
+                                            <ul>
+                                                <li><img src="images/svg-icons/ok-icon.svg">Unlimited Forms & Submissions</li>
+                                                <li><img src="images/svg-icons/ok-icon.svg">Custom endpoints</li>
+                                                <li><img src="images/svg-icons/ok-icon.svg">Complete data manipulation</li>
+                                                <li><img src="images/svg-icons/ok-icon.svg">Email notifications</li>
+                                                <li><img src="images/svg-icons/ok-icon.svg">Download data</li>
+                                                <li><img src="images/svg-icons/ok-icon.svg">Support</li>
+                                            </ul>
+                                            <button class="btn f-btn f-btn-orange f-global-shadow" type="button">Subscribe Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 my-auto">
+                                    <div class="free-card card">
+                                        <div class="lines">
+                                            <span>Starter</span>
+                                        </div>
+                                        <div class="body">
+                                            <h1>Free</h1>
+                                            <ul>
+                                                <li><img src="images/svg-icons/ok-icon-free.svg">3 forms</li>
+                                                <li><img src="images/svg-icons/ok-icon-free.svg">500 Submissions per form</li>
+                                                <li><img src="images/svg-icons/ok-icon-free.svg">Data visualization</li>
+                                                <li><img src="images/svg-icons/ok-icon-free.svg">Simple data manipulation</li>
+                                            </ul>
+                                            <button class="btn f-btn f-btn-green f-global-shadow" type="button">Try Free</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2>Stay in touch</h2>
+                        <p>
+                            If we are providing forms then we have to be a good example, it has never been
+                            so easy to send us a message. This form is being supplied with our platform.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="card">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" name="name" placeholder="Your Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" name="email" placeholder="Email Address"><br>
+                                    </div>
+                                </div>
+                                <textarea name="" id="" cols="30" rows="8" placeholder="Message..."></textarea>
+                                <button class="btn f-btn f-btn-orange f-global-shadow" type="button">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer-left">
+                            <p>About</p>
+                            <p>Pricing</p>
+                            <p>Documentation</p>
+                            <p>Roadmap</p>
+                            <p>Privacy Policy</p>
+                            <p>Feedback</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-center">
+                            <p>Created with <span class="heart">&#x2665;</span> by <span class="author">Formette</span></p>
+                            <p>&#169; Formette, 2017</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-right">
+                            <div class="box-l d-inline">
+                                <img src="images/twitter.svg">
+                            </div>
+                            <div class="box-m d-inline">
+                                <img src="images/facebook.svg">
+                            </div>
+                            <div class="box-r d-inline">
+                                <img src="images/instagram.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
